@@ -20,6 +20,7 @@ body {
 
 html .content,
 body .content {
+  min-width: 375px;
   /* 头部 */
   /* 占位盒子 */
   /* 搜索框 */

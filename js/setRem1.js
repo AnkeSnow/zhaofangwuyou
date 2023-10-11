@@ -1,7 +1,8 @@
 function setRem() {
     var width = 375,
         clientWidth = document.documentElement.clientWidth || document.body.clientWidth,
-        html_ = document.querySelector('html');
+        clientWidth = clientWidth < 375 ? 375 : clientWidth;
+    html_ = document.querySelector('html');
     html_.style.fontSize = (clientWidth / width) * 10 + 'px';
 }
 

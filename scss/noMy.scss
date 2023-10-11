@@ -18,6 +18,7 @@ body {
 
     .main {
         width: 100%;
+        min-width: 375px;
 
         >header {
             background: url(../image/my/bg1.png) no-repeat;
